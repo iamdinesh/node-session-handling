@@ -1,0 +1,37 @@
+.loginContainer{
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #b3b3b3;
+	margin: 10% auto 0 auto;
+	position: relative;
+	border-radius: 5px;
+}
+.form_grp {
+	padding : 2px;
+}
+.form_grp label {
+	display: block;
+	font-weight: bold;
+	padding : 2px;
+	font-family: arial;
+	font-size : 12px;
+}
+.form_grp input {
+	width : 95%;
+	padding : 8px 4px;
+	border : 1px solid #b3b3b3;
+	margin : 3px;
+	border-radius: 3px;
+}
+.buttonGrp{
+	margin : 10px 0;
+}
+.login_btn{
+	width: 98%;
+	padding: 10px;
+	margin: 0px 4px;
+	border: 1px solid #248DC3;
+	background-color: #5D9CDA;
+	color: #fff;
+	cursor: pointer;
+}

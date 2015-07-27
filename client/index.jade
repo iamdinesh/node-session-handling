@@ -1,0 +1,17 @@
+doctype html
+html(lang="en" ng-app="session")
+  head
+      meta(charset="UTF-8")
+      title!= title
+      link(rel="stylesheet", href="css/idleTimer.css")
+      link(rel="stylesheet", href="css/app.css")
+  body
+    div(ui-view="")
+    script(src = "js/lib/angular.min.js")
+    script(src="js/lib/angular-ui-router.min.js")
+    script(src="js/thirdparty_module/idleTimer.js")
+    script(src="app.js")
+    script(src="js/controller/login.js")
+    script(src="js/controller/signUp.js")
+    script(src="js/controller/home.js")
+    script(src="js/service/service.js")        
